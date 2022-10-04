@@ -6,8 +6,9 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<script src="js/bootstrap.bundle.min.js" /></script>
+		<script src="js/highcharts.js" /></script>		
 	</head>
-	<body class="bg-light">
+	<body class="p-2 m-4 shadow rounded-4 bg-light">
 		<div class="home">
 			<div class="header p-3 m-3 shadow rounded-4 bg-body">
 				<section class="top">
@@ -16,21 +17,20 @@
 					</div>
 					<div class="right">
 						<div class="socmed">
-							<span class="lead"><em>follow me :</em></span>
 							<a class="fa-stack" href="https://facebook.com/egadwys" target="blank">
 								<i class="fa fa-circle fa-stack-2x text-primary"></i>
 								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 							</a>
 							<a class="fa-stack" href="https://instagram.com/egadwys" target="blank">
-								<i class="fa fa-circle fa-stack-2x text-danger"></i>
+								<i class="fa fa-circle fa-stack-2x text-primary"></i>
 								<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 							</a>
 							<a class="fa-stack" href="https://twitter.com/egadwys" target="blank">
-								<i class="fa fa-circle fa-stack-2x text-info"></i>
+								<i class="fa fa-circle fa-stack-2x text-primary"></i>
 								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 							</a>
 							<a class="fa-stack" href="https://github.com/egadwys" target="blank">
-								<i class="fa fa-circle fa-stack-2x text-dark"></i>
+								<i class="fa fa-circle fa-stack-2x text-primary"></i>
 								<i class="fa fa-github fa-stack-1x fa-inverse"></i>
 							</a>
 							<a class="fa-stack" href="https://linkedin.com/in/egadwys" target="blank">
@@ -42,17 +42,28 @@
 				</section>
 			</div>
 			
-			<div class="content p-4 m-3 shadow rounded-4 bg-body">
-				<img src="img/profil.png" width="10%" class="shadow rounded-circle m-4">
-				<figure>
-					<blockquote class="blockquote">
-						<p><em>do it!, then you will understand</em></p>
-					</blockquote>
-					<figcaption class="blockquote-footer">
-						<em>ega dwy sulistiyanto</em>
-					</figcaption>
-				</figure>
+			<div class="content">
+				<div class="kiri p-4 m-3 shadow rounded-4 bg-body">
+					<img src="img/profil.png" class="shadow rounded-circle m-4">
+					<figure>
+						<blockquote class="blockquote">
+							<p><em>do it!, then you will understand</em></p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+							<em>ega dwy sulistiyanto</em>
+						</figcaption>
+					</figure>
+				</div>
+				
+				<div class="kiri p-3 m-3 shadow rounded-4 bg-body">
+					<figure class="highcharts-figure">
+						<div id="container"></div>
+					</figure>
+				</div>
 			</div>
 		</div>
+		
+		<script src="js/chart.js" /></script>
+		
 	</body>
 </html>
