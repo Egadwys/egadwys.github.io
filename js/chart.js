@@ -4,7 +4,7 @@ const chart = Highcharts.chart('container', {
   },
 
   xAxis: {
-    categories: ['Java', 'Kotlin', 'Flutter', 'Python', 'Php', 'JS', 'UI/UX Design', 'Ms.Office']
+    categories: ['Android', 'Python', 'Php', 'JS', 'UI/UX Design']
   },
   
   yAxis: {
@@ -15,7 +15,7 @@ const chart = Highcharts.chart('container', {
     type: 'column',
     name: 'knowledge',
     colorByPoint: true,
-    data: [80, 90, 35, 60, 85, 80, 90, 100],
+    data: [85, 70, 85, 80, 90],
     showInLegend: false
   }]
 });
