@@ -136,6 +136,10 @@ img {
 	width: 50%;
 }
 
+#lottie {
+	height: 80% !important;
+}
+
 }
 
 @media screen and (max-width: 420px) {
@@ -161,6 +165,10 @@ img {
 .socmed {
 	float: none;
 	margin-top: 1rem;
+}
+
+#lottie {
+	height: 80% !important;
 }
 
 }
