@@ -65,5 +65,7 @@ body {
 @media screen and (max-width: 720px) {
   :root {
     font-size: 50%;
+    transform: rotate(90deg);
+    overflow: hidden;
   }
 }
