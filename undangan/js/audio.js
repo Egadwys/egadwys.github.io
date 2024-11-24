@@ -12,7 +12,7 @@ export const audio = (() => {
         audio.autoplay = false;
         audio.muted = false;
         audio.loop = true;
-        audio.volume = 1;
+        audio.volume = 0.8;
         audio.controls = false;
         audio.preload = 'auto';
     };

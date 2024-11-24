@@ -94,9 +94,15 @@ export const guest = (() => {
 
         audio.play();
         audio.showButton();
-
-        theme.showButtonChangeTheme();
         setTimeout(animation, 1500);
+const elem = document.getElementById('p');
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
     };
 
     const init = () => {
