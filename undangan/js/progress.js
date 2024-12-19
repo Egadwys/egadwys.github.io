@@ -12,7 +12,6 @@ export const progress = (() => {
     let push = true;
 
     const onComplete = () => {
-        guest.name();
         util.opacity('loading', 0.025);
     };
 
